@@ -160,16 +160,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 📞 Support
 
 For support or questions:
-- Email: info@semhelp.com
-- Phone: +91 1234567890
+- Email: ankitsahu.professional@gmail.com
 
-## 🙏 Acknowledgments
-
-- Font Awesome for icons
-- Google Fonts for typography
-- Modern CSS techniques and best practices
-- Responsive design principles
-
----
 
 **SemHelp** - Empowering students with quality study materials and resources. 📚✨ 
