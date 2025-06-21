@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SemHelp - Your Study Materials Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>SemHelp</span>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <button id="theme-toggle" class="theme-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to SemHelp</h1>
+                <p class="hero-description">Your one-stop destination for all semester study materials, notes, and PYQs.</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Study Materials</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Subjects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">Students</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <i class="fas fa-book-open"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Releases Section -->
+    <section class="new-releases">
+        <div class="container">
+            <h2 class="section-title">New Releases</h2>
+            <div class="releases-grid">
+                <div class="release-card">
+                    <div class="release-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>Mathematics Unit 3 Notes</h3>
+                    <p>Updated calculus and integration notes for 2nd year students</p>
+                    <span class="release-date">Added 2 days ago</span>
+                </div>
+                <div class="release-card">
+                    <div class="release-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>Physics PYQs 2023</h3>
+                    <p>Complete previous year question papers with solutions</p>
+                    <span class="release-date">Added 1 week ago</span>
+                </div>
+                <div class="release-card">
+                    <div class="release-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>Computer Science Lab Manual</h3>
+                    <p>Practical lab exercises and programming assignments</p>
+                    <span class="release-date">Added 3 days ago</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Year Selection Section -->
+    <section class="year-selection">
+        <div class="container">
+            <h2 class="section-title">Select Your Year</h2>
+            <div class="year-grid">
+                <div class="year-card" onclick="window.location.href='year1.html'">
+                    <div class="year-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>1st Year</h3>
+                    <p>Foundation subjects and basic concepts</p>
+                    <div class="year-subjects">
+                        <span>Mathematics</span>
+                        <span>Physics</span>
+                        <span>Chemistry</span>
+                        <span>Programming</span>
+                    </div>
+                </div>
+                <div class="year-card" onclick="window.location.href='year2.html'">
+                    <div class="year-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>2nd Year</h3>
+                    <p>Core engineering subjects</p>
+                    <div class="year-subjects">
+                        <span>Advanced Math</span>
+                        <span>Data Structures</span>
+                        <span>Digital Logic</span>
+                        <span>Electronics</span>
+                    </div>
+                </div>
+                <div class="year-card" onclick="window.location.href='year3.html'">
+                    <div class="year-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>3rd Year</h3>
+                    <p>Specialized subjects and electives</p>
+                    <div class="year-subjects">
+                        <span>Database Systems</span>
+                        <span>Computer Networks</span>
+                        <span>Operating Systems</span>
+                        <span>Software Engineering</span>
+                    </div>
+                </div>
+                <div class="year-card" onclick="window.location.href='year4.html'">
+                    <div class="year-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>4th Year</h3>
+                    <p>Advanced topics and project work</p>
+                    <div class="year-subjects">
+                        <span>Machine Learning</span>
+                        <span>Cloud Computing</span>
+                        <span>Cybersecurity</span>
+                        <span>Final Project</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SemHelp</h3>
+                    <p>Empowering students with quality study materials and resources.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@semhelp.com</p>
+                    <p>Phone: +91 1234567890</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SemHelp. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 

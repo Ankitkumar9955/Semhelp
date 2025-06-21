@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st Year Subjects - SemHelp</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>SemHelp</span>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <button id="theme-toggle" class="theme-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <i class="fas fa-chevron-right"></i>
+                <span>1st Year</span>
+            </div>
+            <h1 class="page-title">1st Year Subjects</h1>
+            <p class="page-description">Foundation subjects and basic concepts for first-year engineering students</p>
+        </div>
+    </section>
+
+    <!-- Subjects Grid -->
+    <section class="subjects-section">
+        <div class="container">
+            <div class="subjects-grid">
+                <div class="subject-card" onclick="window.location.href='subjects/mathematics.html'">
+                    <div class="subject-icon">
+                        <i class="fas fa-square-root-alt"></i>
+                    </div>
+                    <h3>Mathematics</h3>
+                    <p>Calculus, Linear Algebra, and Mathematical Foundations</p>
+                    <div class="subject-materials">
+                        <span class="material-count">5 Units</span>
+                        <span class="material-count">3 PYQs</span>
+                    </div>
+                    <div class="subject-topics">
+                        <span>Calculus</span>
+                        <span>Linear Algebra</span>
+                        <span>Differential Equations</span>
+                    </div>
+                </div>
+
+                <div class="subject-card" onclick="window.location.href='subjects/physics.html'">
+                    <div class="subject-icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <h3>Physics</h3>
+                    <p>Mechanics, Thermodynamics, and Wave Physics</p>
+                    <div class="subject-materials">
+                        <span class="material-count">4 Units</span>
+                        <span class="material-count">2 PYQs</span>
+                    </div>
+                    <div class="subject-topics">
+                        <span>Mechanics</span>
+                        <span>Thermodynamics</span>
+                        <span>Waves</span>
+                    </div>
+                </div>
+
+                <div class="subject-card" onclick="window.location.href='subjects/chemistry.html'">
+                    <div class="subject-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Chemistry</h3>
+                    <p>Physical Chemistry, Organic Chemistry, and Materials</p>
+                    <div class="subject-materials">
+                        <span class="material-count">4 Units</span>
+                        <span class="material-count">2 PYQs</span>
+                    </div>
+                    <div class="subject-topics">
+                        <span>Physical Chemistry</span>
+                        <span>Organic Chemistry</span>
+                        <span>Materials Science</span>
+                    </div>
+                </div>
+
+                <div class="subject-card" onclick="window.location.href='subjects/programming.html'">
+                    <div class="subject-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming</h3>
+                    <p>Introduction to Programming and Problem Solving</p>
+                    <div class="subject-materials">
+                        <span class="material-count">5 Units</span>
+                        <span class="material-count">4 PYQs</span>
+                    </div>
+                    <div class="subject-topics">
+                        <span>C Programming</span>
+                        <span>Data Types</span>
+                        <span>Control Structures</span>
+                    </div>
+                </div>
+
+                <div class="subject-card" onclick="window.location.href='subjects/english.html'">
+                    <div class="subject-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>English</h3>
+                    <p>Technical Communication and Professional Writing</p>
+                    <div class="subject-materials">
+                        <span class="material-count">3 Units</span>
+                        <span class="material-count">2 PYQs</span>
+                    </div>
+                    <div class="subject-topics">
+                        <span>Technical Writing</span>
+                        <span>Communication</span>
+                        <span>Grammar</span>
+                    </div>
+                </div>
+
+                <div class="subject-card" onclick="window.location.href='subjects/engineering-drawing.html'">
+                    <div class="subject-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3>Engineering Drawing</h3>
+                    <p>Technical Drawing and CAD Fundamentals</p>
+                    <div class="subject-materials">
+                        <span class="material-count">4 Units</span>
+                        <span class="material-count">3 PYQs</span>
+                    </div>
+                    <div class="subject-topics">
+                        <span>Technical Drawing</span>
+                        <span>CAD</span>
+                        <span>Projections</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>25+</h3>
+                        <p>Study Materials</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>16</h3>
+                        <p>PYQ Papers</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>500+</h3>
+                        <p>Students</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>4.8</h3>
+                        <p>Rating</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SemHelp</h3>
+                    <p>Empowering students with quality study materials and resources.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@semhelp.com</p>
+                    <p>Phone: +91 1234567890</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SemHelp. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 

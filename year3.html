@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3rd Year Subjects - SemHelp</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>SemHelp</span>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <button id="theme-toggle" class="theme-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <i class="fas fa-chevron-right"></i>
+                <span>3rd Year</span>
+            </div>
+            <h1 class="page-title">3rd Year Subjects</h1>
+            <p class="page-description">Specialized subjects and electives for third-year engineering students</p>
+        </div>
+    </section>
+
+    <!-- Subjects Grid -->
+    <section class="subjects-section">
+        <div class="container">
+            <div class="subjects-grid">
+                <div class="subject-card" onclick="window.location.href='subjects/database-systems.html'">
+                    <div class="subject-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database Systems</h3>
+                    <p>SQL, Database Design, and Management Systems</p>
+                    <div class="subject-materials">
+                        <span class="material-count">5 Units</span>
+                        <span class="material-count">4 PYQs</span>
+                    </div>
+                    <div class="subject-topics">
+                        <span>SQL</span>
+                        <span>Database Design</span>
+                        <span>Normalization</span>
+                    </div>
+                </div>
+
+                <div class="subject-card" onclick="window.location.href='subjects/computer-networks.html'">
+                    <div class="subject-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Computer Networks</h3>
+                    <p>Network Protocols, TCP/IP, and Network Security</p>
+                    <div class="subject-materials">
+                        <span class="material-count">6 Units</span>
+                        <span class="material-count">5 PYQs</span>
+                    </div>
+                    <div class="subject-topics">
+                        <span>TCP/IP</span>
+                        <span>Network Protocols</span>
+                        <span>Network Security</span>
+                    </div>
+                </div>
+
+                <div class="subject-card" onclick="window.location.href='subjects/operating-systems.html'">
+                    <div class="subject-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>Operating Systems</h3>
+                    <p>Process Management, Memory Management, and File Systems</p>
+                    <div class="subject-materials">
+                        <span class="material-count">5 Units</span>
+                        <span class="material-count">4 PYQs</span>
+                    </div>
+                    <div class="subject-topics">
+                        <span>Process Management</span>
+                        <span>Memory Management</span>
+                        <span>File Systems</span>
+                    </div>
+                </div>
+
+                <div class="subject-card" onclick="window.location.href='subjects/software-engineering.html'">
+                    <div class="subject-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Software Engineering</h3>
+                    <p>Software Development Life Cycle and Project Management</p>
+                    <div class="subject-materials">
+                        <span class="material-count">4 Units</span>
+                        <span class="material-count">3 PYQs</span>
+                    </div>
+                    <div class="subject-topics">
+                        <span>SDLC</span>
+                        <span>Project Management</span>
+                        <span>Testing</span>
+                    </div>
+                </div>
+
+                <div class="subject-card" onclick="window.location.href='subjects/compiler-design.html'">
+                    <div class="subject-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h3>Compiler Design</h3>
+                    <p>Lexical Analysis, Parsing, and Code Generation</p>
+                    <div class="subject-materials">
+                        <span class="material-count">5 Units</span>
+                        <span class="material-count">4 PYQs</span>
+                    </div>
+                    <div class="subject-topics">
+                        <span>Lexical Analysis</span>
+                        <span>Parsing</span>
+                        <span>Code Generation</span>
+                    </div>
+                </div>
+
+                <div class="subject-card" onclick="window.location.href='subjects/computer-graphics.html'">
+                    <div class="subject-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Computer Graphics</h3>
+                    <p>2D/3D Graphics, Rendering, and Animation</p>
+                    <div class="subject-materials">
+                        <span class="material-count">4 Units</span>
+                        <span class="material-count">3 PYQs</span>
+                    </div>
+                    <div class="subject-topics">
+                        <span>2D Graphics</span>
+                        <span>3D Graphics</span>
+                        <span>Rendering</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>29+</h3>
+                        <p>Study Materials</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>23</h3>
+                        <p>PYQ Papers</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>350+</h3>
+                        <p>Students</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>4.6</h3>
+                        <p>Rating</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SemHelp</h3>
+                    <p>Empowering students with quality study materials and resources.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@semhelp.com</p>
+                    <p>Phone: +91 1234567890</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SemHelp. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
