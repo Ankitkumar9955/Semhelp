@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
@@ -18,16 +17,26 @@
             </div>
             <div class="nav-menu">
                 <a href="index.html" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#contact" class="nav-link">Contact</a>
+                <div class="nav-link dropdown">
+                    <span class="dropdown-toggle">Years <i class="fas fa-caret-down"></i></span>
+                    <div class="dropdown-menu">
+                        <a href="year1.html">1st Year</a>
+                        <a href="year2.html">2nd Year</a>
+                        <a href="year3.html">3rd Year</a>
+                        <a href="year4.html">4th Year</a>
+                    </div>
+                </div>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
             </div>
             <div class="nav-toggle">
-                <button id="theme-toggle" class="theme-btn">
-                    <i class="fas fa-moon"></i>
-                </button>
                 <button class="mobile-menu-btn">
                     <i class="fas fa-bars"></i>
                 </button>
+            </div>
+            <div class="theme-switch">
+                <input type="checkbox" id="theme-toggle" class="theme-toggle-checkbox">
+                <label for="theme-toggle" class="theme-toggle-label"></label>
             </div>
         </div>
     </nav>
