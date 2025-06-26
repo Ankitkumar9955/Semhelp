@@ -23,7 +23,9 @@ class ThemeManager {
     }
 
     updateThemeIcon() {
+        if (!this.themeToggle) return;
         const icon = this.themeToggle.querySelector('i');
+        if (!icon) return;
         if (this.theme === 'dark') {
             icon.className = 'fas fa-sun';
         } else {
@@ -32,6 +34,7 @@ class ThemeManager {
     }
 
     setupEventListeners() {
+        if (!this.themeToggle) return;
         this.themeToggle.addEventListener('click', () => {
             this.toggleTheme();
         });
@@ -304,6 +307,27 @@ class SearchManager {
     }
 }
 
+// Dropdown Menu Toggle for Mobile
+function setupDropdownMenu() {
+    const dropdowns = document.querySelectorAll('.dropdown');
+    dropdowns.forEach(dropdown => {
+        const toggle = dropdown.querySelector('.dropdown-toggle');
+        if (toggle) {
+            toggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                // Close other dropdowns
+                dropdowns.forEach(d => { if (d !== dropdown) d.classList.remove('active'); });
+                // Toggle this dropdown
+                dropdown.classList.toggle('active');
+            });
+        }
+    });
+    // Close dropdowns when clicking outside
+    document.addEventListener('click', () => {
+        dropdowns.forEach(d => d.classList.remove('active'));
+    });
+}
+
 // Initialize all components when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     // Initialize theme manager
@@ -329,6 +353,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Add loading animation
     document.body.classList.add('loaded');
+
+    // Setup dropdown menu
+    setupDropdownMenu();
 });
 
 // Add CSS for animations
