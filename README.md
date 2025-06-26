@@ -145,7 +145,7 @@ To enable PDF viewing/downloading:
 - Follow the modular class-based architecture
 - Add new functionality while maintaining existing features
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -157,15 +157,6 @@ To enable PDF viewing/downloading:
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 📞 Support
-
-For support or questions:
-- Email: info@semhelp.com
-- Phone: +91 1234567890
-
-## 🙏 Acknowledgments
-
-- Font Awesome for icons
 - Google Fonts for typography
 - Modern CSS techniques and best practices
 - Responsive design principles
