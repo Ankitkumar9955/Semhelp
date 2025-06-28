@@ -9,34 +9,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <i class="fas fa-graduation-cap"></i>
-                <span>SemHelp</span>
+    <header>
+        <nav>
+            <div class="logo">SEMHELP</div>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="theme-switch">
+                <input type="checkbox" id="theme-toggle" class="theme-toggle-checkbox">
+                <label for="theme-toggle" class="theme-toggle-label"></label>
             </div>
-            <div class="nav-menu">
-                <a href="index.html" class="nav-link">Home</a>
-                <a href="about.html" class="nav-link active">About</a>
-                <a href="contact.html" class="nav-link">Contact</a>
-            </div>
-            <div class="nav-toggle">
-                <button id="theme-toggle" class="theme-btn">
-                    <i class="fas fa-moon"></i>
-                </button>
-                <button class="mobile-menu-btn">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </div>
-        </div>
-    </nav>
-    <section class="hero" style="min-height: 350px;">
+        </nav>
+    </header>
+    <section class="page-header">
         <div class="container">
-            <h1 class="hero-title">Why SemHelp?</h1>
-            <p class="hero-description" style="max-width: 700px;">
-                In a huge university like <b>SRM University</b>, with thousands of students and hundreds of exams every semester, it can be overwhelming to find the right study materials, notes, and previous year questions (PYQs) when you need them most. <br><br>
-                <b>SemHelp</b> was created to solve this problem. We bring together all essential resources in one place, making it easy for students to access, share, and support each other—especially during the stressful exam season. No more endless searching, no more last-minute panic. Just organized, reliable help for every subject and every unit.
-            </p>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <i class="fas fa-chevron-right"></i>
+                <span>About</span>
+            </div>
+            <h1 class="page-title">About SemHelp</h1>
+            <p class="page-description">Why SemHelp? Our mission and vision for SRM students</p>
         </div>
     </section>
     <section class="about-section">
@@ -75,8 +70,8 @@
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
